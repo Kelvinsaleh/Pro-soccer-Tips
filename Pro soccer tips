@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,84 +8,44 @@
 </head>
 <body>
 
+<!-- Header Section -->
 <header>
     <h1>Pro Tips</h1>
     <p>Your Source for Soccer Predictions</p>
 </header>
 
+<!-- Main Section -->
 <div class="container">
     <h2>Welcome to Pro Tips!</h2>
-    <p>We provide expert soccer predictions to help you make better choices.</p>
+    <p>We provide expert soccer predictions to help you make better choices for your bets.</p>
+    
+    <!-- Prediction Form -->
+    <div class="prediction-form">
+        <h3>Enter your prediction</h3>
+        <form id="prediction-form">
+            <label for="team1">Team 1:</label>
+            <input type="text" id="team1" placeholder="Enter Team 1" required><br>
+            
+            <label for="team2">Team 2:</label>
+            <input type="text" id="team2" placeholder="Enter Team 2" required><br>
+            
+            <label for="prediction">Your Prediction:</label>
+            <select id="prediction" required>
+                <option value="win1">Team 1 Wins</option>
+                <option value="draw">Draw</option>
+                <option value="win2">Team 2 Wins</option>
+            </select><br>
+            
+            <button type="submit">Submit Prediction</button>
+        </form>
+    </div>
 </div>
 
-<div class="footer">
+<!-- Footer Section -->
+<footer class="footer">
     <p>Created by Saleh</p>
-</div>
+</footer>
 
 </body>
 </html>
-
-3. Save this file as index.html.
-
-
-
-2. Create the CSS File:
-
-1. Open a new file in your text editor.
-
-
-2. Copy the following CSS code:
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #008000; /* Green */
-    padding: 10px 0;
-    text-align: center;
-    color: white;
-}
-
-h1 {
-    font-size: 2.5em;
-    margin: 0;
-}
-
-.container {
-    padding: 20px;
-    text-align: center;
-}
-
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-3. Save this file as styles.css.
-
-
-
-3. Upload to GitHub:
-
-Once you have both files, you can upload them to your GitHub repository using the following steps:
-
-Go to your GitHub repository.
-
-Click on Add file → Upload files.
-
-Upload both index.html and styles.css.
-
-Commit the changes.
-
-
-If you'd like further guidance on any of the steps, let me know!
 
