@@ -1,0 +1,95 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Tips - Soccer Predictions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Pro Tips</h1>
+    <p>Your Source for Soccer Predictions</p>
+</header>
+
+<div class="container">
+    <h2>Welcome to Pro Tips!</h2>
+    <p>We provide expert soccer predictions to help you make better choices.</p>
+</div>
+
+<div class="footer">
+    <p>Created by Saleh</p>
+</div>
+
+</body>
+</html>
+
+3. Save this file as index.html.
+
+
+
+2. Create the CSS File:
+
+1. Open a new file in your text editor.
+
+
+2. Copy the following CSS code:
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #008000; /* Green */
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+3. Save this file as styles.css.
+
+
+
+3. Upload to GitHub:
+
+Once you have both files, you can upload them to your GitHub repository using the following steps:
+
+Go to your GitHub repository.
+
+Click on Add file → Upload files.
+
+Upload both index.html and styles.css.
+
+Commit the changes.
+
+
+If you'd like further guidance on any of the steps, let me know!
+
